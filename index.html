@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>扇小贝</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
+    <link rel="shortcut icon" type="image/x-icon" href="./images/favicon.ico">
+    <link rel="stylesheet" type="text/css" href="./css/swiper.min.css">
+    <link rel="stylesheet" type="text/css" href="./css/animate.min.css">
+    <link rel='stylesheet' href='./css/style.css' />
+    <style type="text/css">
+        .download_person{
+            position: absolute;
+            top: 10px;
+            right: 10px;
+            font-size: 20px;
+            color: #868686;
+            z-index: 1000;
+        }
+        .question{
+            position: absolute;
+            bottom: 30px;
+            left: 0;
+            text-align: center;
+            width: 100%;
+        }
+        .question a{
+            text-decoration:underline;
+
+            
+        }
+    </style>
+    <script type="text/javascript">
+        
+        (function(){
+            var ua = navigator.userAgent;
+
+            var ipad = ua.match(/(iPad).*OS\s([\d_]+)/),
+
+            isIphone =!ipad && ua.match(/(iPhone\sOS)\s([\d_]+)/),
+
+            isAndroid = ua.match(/(Android)\s+([\d.]+)/),
+
+            isMobile = isIphone || isAndroid;
+
+
+
+            if(isMobile){
+                window.location.href="./mobile.html";
+            }
+
+
+        }())
+    </script>
+      </head>
+    <body>
+    <!-- Swiper -->
+    <div class="swiper-container">
+        <div class="swiper-wrapper">
+            <!-- 第一屏 -->
+            <div class="swiper-slide max-width" >
+                
+                <div class="first-slide-left slide-left ani" 
+                swiper-animate-effect="fadeInDown" 
+                swiper-animate-duration="1s">
+                    <img src="./images/image_1.png" swiper-animate-effect="fadeInDown" swiper-animate-duration="1s" >
+                </div>
+                <div class="first-slide-right slide-right " >
+                    <div class="ani" swiper-animate-effect="fadeInDown" swiper-animate-duration="1s" swiper-animate-delay="0.5s">
+                        <div class="first-right-logo ani">
+                            <img src="./images/logo_slogan.png">
+                        <!-- <span>币谷APP</span> -->
+                        </div>
+                        <img class="first-right-title ani" src="./images/title.png">
+                        <p>先领券,再下单,既省钱,又赚钱.平台分红天天领</p>
+                    </div>
+                    
+                    <div class="first-button ani" swiper-animate-effect="fadeInDown" swiper-animate-duration="1s">
+                        <a href="http://www.shanxiaobei.cn/1.apk" class="android_button" >
+                            <div class="button_solid"></div>
+                            <span>安卓版下载</span>
+                            <!-- <span>敬请期待</span> -->
+                        </a>
+                        <a href="" class="ios_button">
+                            <!-- <span>iOS 版下载</span> -->
+                           <span>敬请期待</span>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="question">
+                    <!-- <a href="https://t.me/joinchat/IMJut0luiEBwy36Tu9pFLA" target="view_window">有问题，点这里</a> -->
+                </div>
+            </div>  
+            <!-- 第二屏 -->
+            <div class="swiper-slide max-width">
+                <div class="slide-left ani" swiper-animate-effect="bounceInLeft" swiper-animate-duration="1s">
+                    <div class="title">品质佳</div>
+                    <div class="content">精心挑选淘宝天猫好物,放心购!</div>
+                </div>
+                <div class="slide-right ani"  swiper-animate-effect="bounceInRight" swiper-animate-duration="1s">
+                    <img src="./images/splash1.png">
+                </div>
+            </div>
+            <!-- 第三屏 -->
+            <div class="swiper-slide max-width">
+                <div class="slide-left ani" swiper-animate-effect="bounceInLeft" swiper-animate-duration="1s">
+                    <img src="./images/splash2.png">
+                </div> 
+                <div class="slide-right ani" swiper-animate-effect="bounceInRight" swiper-animate-duration="1s">
+                    <div class="title">多省钱</div>
+                    <div class="content">海量优惠券任你选,省!省!省!</div>
+                </div>
+            </div>
+            <!-- 第四屏 -->
+            <div class="swiper-slide max-width">
+                <div class="slide-left ani" swiper-animate-effect="bounceInLeft" swiper-animate-duration="1s">
+                    <div class="title">赚不停</div>
+                    <div class="content">每天享受平台80%的收益分红,赚!赚!赚!</div>
+                </div>
+                <div class="slide-right ani" swiper-animate-effect="bounceInRight" swiper-animate-duration="1s">
+                    <img src="./images/splash3.png">
+                </div>
+            </div>
+            <!-- 第五屏 -->
+            <div class="swiper-slide max-width" >
+                <div class="slide-left ani" swiper-animate-effect="bounceInLeft" swiper-animate-duration="1s">
+                    <img src="./images/splash4.png">
+                </div>
+                <div class="slide-right ani" swiper-animate-effect="bounceInRight" swiper-animate-duration="1s">
+                    <div class="title">躺赚钱</div>
+                    <div class="content">邀请好友即可享受好友收益分红,邀!邀!邀!</div>
+                </div>
+            </div>
+            <!-- 第六屏 -->
+            <div class="swiper-slide swiper-slide-bottom max-width" >
+                <div class="bottom-title ani" swiper-animate-effect="fadeInUp" swiper-animate-duration="0.5s">打开扇小贝,发现不一样的世界</div>
+                <div class="bottom-content ani" swiper-animate-effect="fadeInUp" swiper-animate-duration="0.5s" swiper-animate-delay="0.3s">欢乐购物,天天领钱!快人一步,享受精彩!</div>
+                <img class="ani" src="./images/logo.png" swiper-animate-effect="fadeInUp" swiper-animate-duration="0.5s" swiper-animate-delay="0.6s">
+                <a class="ani download" swiper-animate-effect="fadeInUp" swiper-animate-duration="0.5s" swiper-animate-delay="0.9s">立即下载</a>
+            </div>
+            
+        </div>
+        <div class="download_person"></div>
+        <!-- 右侧轮播圆点显示 -->
+        <div class="swiper-pagination">
+        </div>
+        <div class="swiper_solid"></div>
+    </div>
+
+    <script src="https://cdn.bootcss.com/jquery/3.3.0/jquery.min.js"></script>
+    <script src="./js/swiper.min.js"></script>
+    <script src="./js/swiper.animate.min.js"></script>
+    <script type="text/javascript">
+        var mySwiper4 = new Swiper('.swiper-container',{
+            slidesPerView : 'auto',//设置slider容器能够同时显示的slides数量 ，默认为1
+            paginationClickable: true,//点击分页器的指示点分页器会控制Swiper切换。
+            direction : 'vertical',//Slides的滑动方向,水平(horizontal)或垂直(vertical)
+            keyboardControl : true,//是否开启键盘控制Swiper切换
+            mousewheelControl : true,
+            pagination:'.swiper-container .swiper-pagination',
+            
+            // 动画
+            onInit: function(swiper){ //Swiper2.x的初始化是onFirstInit
+                swiperAnimateCache(swiper); //隐藏动画元素 
+                swiperAnimate(swiper); //初始化完成开始动画
+            }, 
+            onSlideChangeEnd: function(swiper){ 
+                swiperAnimate(swiper); //每个slide切换结束时也运行当前slide动画
+            } 
+        })
+
+        $(function(){
+
+            $.ajaxSetup({ cache: false });   
+            $.ajax({
+                url: 'https://huodong.bigoo.io/roulette/v1/user/downloadCount',
+                type: 'GET',
+                dataType: 'json',
+                success:function(res){
+                    console.log(res.data.count);
+                    var cont = '当前下载人数：' + res.data.count + ' 人';
+                    $('.download_person').text(cont);
+                },
+
+            });
+
+            $(".android_button").mouseover(function(){
+                $(".android_button span").css("border-left","1px solid #fff")
+                // $(".android_button span").text("敬请期待")
+            });
+            $(".android_button").mouseout(function(){
+                $(".android_button span").css("border-left","1px solid #858585")
+                // $(".android_button span").text("安卓版下载")
+            })
+            $(".ios_button").mouseover(function(){
+                $(".ios_button span").css("border-left","1px solid #fff")
+                // $(".ios_button span").text("iOS 版下载")
+                // $(".ios_button span").text("敬请期待")
+            });
+            $(".ios_button").mouseout(function(){
+                $(".ios_button span").css("border-left","1px solid #858585")
+                // $(".ios_button span").text("iOS 版下载")
+            })
+
+            $(".download").click(function(){
+                $(".swiper-pagination span").eq(0).trigger('click');
+            })
+            
+        })
+
+    </script>
+  </body>
+</html>
